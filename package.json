@@ -1,7 +1,14 @@
 {
-  "name": "tailwind-css-tutorial",
-  "version": "1.0.0",
-  "main": "index.js",
-  "author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
-  "license": "MIT"
+	"name": "tailwind-css-tutorial",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"build": "tailwindcss -i src/main.css -o public/style.css"
+	},
+	"author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.3"
+	}
 }
