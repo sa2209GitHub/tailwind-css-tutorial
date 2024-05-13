@@ -1,0 +1,7 @@
+{
+  "name": "tailwind-css-tutorial",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
+  "license": "MIT"
+}
