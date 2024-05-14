@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"build": "tailwindcss -i src/main.css -o public/style.css"
+		"watch": "tailwindcss -i src/main.css -o public/style.css --watch"
 	},
 	"author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
 	"license": "MIT",
