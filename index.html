@@ -9,16 +9,43 @@
 </head>
 
 <body>
-	<header class="">
+	<!-- Header -->
+	<header class="px-2 border-b-2">
 		<a class="font-bold uppercase text-purple-800" href="index.html">tailwind css</a>
 		<nav>
-			<ul class="text-gray-700 font-semibold">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
+			<ul class="text-gray-500 font-semibold">
+				<li><a class="inline-block py-3 px-2" href="#">Home</a></li>
+				<li><a class="inline-block py-3 px-2" href="#">About</a></li>
+				<li><a class="inline-block py-3 px-2" href="#">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
+
+	<!-- Breadcrumbs -->
+	<main>
+		<div>
+			<div class="py-4 owerflow-y-auto whitespace-nowrap">
+				<a class="text-gray-700" href="#">Home</a>
+				<span class="text-gray-500">&gt;</span>
+				<a class="text-gray-700" href="#">News</a>
+				<span class="text-gray-500">&gt;</span>
+				<a class="text-gray-700" href="#">Tech</a>
+			</div>
+		</div>
+	</main>
 </body>
+
+<!-- Footer -->
+<footer class="border-t-2 mt-10 py-10 px-2 text-gray-700">
+	<div>
+		<div>
+			<h6 class="font-semibold">Company</h6>
+			<ul class="text-gray-500">
+				<li><a class="inline-block py-2" href="#">Team</a></li>
+				<li><a class="inline-block py-2" href="#">About Us</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
 
 </html>
