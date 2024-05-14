@@ -11,12 +11,19 @@
 <body>
 	<!-- Header -->
 	<header class="px-2 border-b-2">
-		<a class="font-bold text-purple-800" href="index.html">Tailwind CSS</a>
+		<a class="font-bold text-purple-800 hover:text-purple-500" href="index.html">Tailwind CSS</a>
 		<nav>
 			<ul class="text-gray-500 font-semibold">
-				<li><a class="inline-block py-3 px-2" href="#">Home</a></li>
-				<li><a class="inline-block py-3 px-2" href="#">About</a></li>
-				<li><a class="inline-block py-3 px-2" href="#">Contact</a></li>
+				<li><a
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
+						href="#">Home</a></li>
+				<li><a
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
+						href="#">About</a></li>
+				<li><a
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
+						href="#">Contact</a>
+				</li>
 			</ul>
 		</nav>
 	</header>
@@ -25,15 +32,29 @@
 	<main>
 		<div>
 			<div class="py-4 owerflow-y-auto whitespace-nowrap">
-				<a class="text-gray-700" href="#">Home</a>
+				<a class="text-gray-600 hover:text-purple-800" href="#">Home</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-700" href="#">News</a>
+				<a class="text-gray-600 hover:text-purple-800" href="#">News</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-700" href="#">Tech</a>
+				<a class="text-gray-600 hover:text-purple-800" href="#">Tech</a>
 			</div>
 		</div>
 	</main>
 </body>
+
+<!-- Divider -->
+<div class="border border-dotted"></div>
+
+<!-- Subscribe -->
+<div class="my-5">
+	<h5 class="font-bold text-lg text-gray-700">Subscribe</h5>
+	<p class="text-gray-600 mt-2">Subscribe to our newsletter.</p>
+	<input placeholder="your email address" type="email"
+		class="text-gray-700 bg-gray-100 p-2 mt-4 w-full border rounded-t hover:border-indigo-800">
+</div>
+
+<!-- Divider -->
+<div class="border border-dotted"></div>
 
 <!-- Footer -->
 <footer class="border-t-2 mt-10 py-10 px-2 text-gray-700">
@@ -41,8 +62,23 @@
 		<div>
 			<h6 class="font-semibold">Company</h6>
 			<ul class="text-gray-500">
-				<li><a class="inline-block py-2" href="#">Team</a></li>
-				<li><a class="inline-block py-2" href="#">About Us</a></li>
+				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Team</a></li>
+				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">About Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="mt-5">
+		<div>
+			<h6 class="font-semibold">Content</h6>
+			<ul class="text-gray-500">
+				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Block</a>
+				</li>
+				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Policy</a>
+				</li>
+				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4"
+						href="#">Documentation</a></li>
 			</ul>
 		</div>
 	</div>
