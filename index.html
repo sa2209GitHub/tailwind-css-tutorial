@@ -12,18 +12,27 @@
 <body>
 	<!-- Header -->
 	<header class="px-2 border-b-2">
-		<a class="font-bold text-purple-800 hover:text-purple-500" href="index.html">Tailwind CSS</a>
+		<a class="font-bold text-indigo-500 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
+			href="index.html">Tailwind CSS</a>
 		<nav>
 			<ul class="text-gray-500 font-semibold">
 				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
 						href="#">Home</a></li>
 				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
-						href="#">About</a></li>
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
+						href=" #">About</a></li>
 				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-purple-800 hover:border-purple-800 focus:text-purple-800"
-						href="#">Contact</a>
+						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
+						href=" #">Contact</a>
+				</li>
+			</ul>
+			<ul>
+				<li><button
+						class="py-1 px-3 border-2 rounded-full border-indigo-500 text-indigo-500 hover:text-white hover:bg-indigo-800 hover:border-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300">Login</button>
+				</li>
+				<li><button class=" py-1 px-3 border-2 rounded-full border-indigo-500 text-indigo-500 hover:text-white hover:bg-indigo-800
+						hover:border-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300">Register</button>
 				</li>
 			</ul>
 		</nav>
@@ -33,15 +42,40 @@
 	<main>
 		<div>
 			<div class="py-4 owerflow-y-auto whitespace-nowrap">
-				<a class="text-gray-600 hover:text-purple-800" href="#">Home</a>
+				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+					#">Home</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-600 hover:text-purple-800" href="#">News</a>
+				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+					#">News</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-600 hover:text-purple-800" href="#">Tech</a>
+				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+					#">Tech</a>
 			</div>
 		</div>
 	</main>
 </body>
+
+<!-- Pagination -->
+<div class="mt-20 mb-10">
+	<ul class="flex justify-center">
+		<li><a
+				class="inline-block py-1 pl-4 pr-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-full"
+				href="#">Previous</a></li>
+		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+				href="#">1</a></li>
+		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+				href="#">2</a></li>
+		<li><a class="inline-block py-1 px-3 border border-indigo-500 text-indigo-500 hover:bg-gray-100 hover:text-gray-700"
+				href="#">3</a></li>
+		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+				href="#">4</a></li>
+		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+				href="#">5</a></li>
+		<li><a
+				class="inline-block py-1 pl-3 pr-4 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-full"
+				href="#">Next</a></li>
+	</ul>
+</div>
 
 <!-- Divider -->
 <div class="border border-dotted"></div>
@@ -51,11 +85,13 @@
 	<h5 class="font-bold text-lg text-gray-700">Subscribe</h5>
 	<p class="text-gray-600 mt-2">Subscribe to our newsletter.</p>
 	<input placeholder="your email address" type="email"
-		class="text-gray-700 bg-gray-100 p-2 mt-4 w-full border rounded-t hover:border-indigo-800">
+		class="text-gray-700 bg-gray-100 p-2 mt-4 w-full border rounded-t hover:border-indigo-500 focus:outline-none focus:ring focus:ring-indigo-300"">
+		<button class=" px-4 py-2 bg-indigo-500 text-white w-full rounded-b hover:bg-indigo-800">Subscribe</button>
 </div>
 
 <!-- Divider -->
-<div class="border border-dotted"></div>
+<div class=" border border-dotted">
+</div>
 
 <!-- Footer -->
 <footer class="border-t-2 mt-10 py-10 px-2 text-gray-700">
@@ -63,8 +99,12 @@
 		<div>
 			<h6 class="font-semibold">Company</h6>
 			<ul class="text-gray-500">
-				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Team</a></li>
-				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">About Us</a>
+				<li><a
+						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
+						href="#">Team</a></li>
+				<li><a
+						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
+						href="#">About Us</a>
 				</li>
 			</ul>
 		</div>
@@ -74,11 +114,16 @@
 		<div>
 			<h6 class="font-semibold">Content</h6>
 			<ul class="text-gray-500">
-				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Block</a>
+				<li><a
+						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
+						href="#">Block</a>
 				</li>
-				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4" href="#">Policy</a>
+				<li><a
+						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
+						href="#">Policy</a>
 				</li>
-				<li><a class="inline-block py-2 hover:underline decoration-purple-800 underline-offset-4"
+				<li><a
+						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
 						href="#">Documentation</a></li>
 			</ul>
 		</div>
