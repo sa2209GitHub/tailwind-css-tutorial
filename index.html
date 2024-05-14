@@ -12,27 +12,18 @@
 <body>
 	<!-- Header -->
 	<header class="px-2 border-b-2 flex items-center justify-between">
-		<a class="font-bold text-lg text-indigo-500 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
-			href="index.html">Tailwind CSS</a>
+		<a class="header-logo" href="index.html">Tailwind CSS</a>
 		<nav class="flex items-center gap-2">
-			<ul class="text-gray-500 font-semibold inline-flex items-center">
-				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">Home</a></li>
-				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
-						href=" #">About</a></li>
-				<li><a
-						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
-						href=" #">Contact</a>
+			<ul class="inline-flex items-center">
+				<li><a class="header-link" href="#">Home</a></li>
+				<li><a class="header-link" href=" #">About</a></li>
+				<li><a class="header-link" href=" #">Contact</a>
 				</li>
 			</ul>
 			<ul class="inline-flex items-center gap-2">
-				<li><button
-						class="py-1 px-3 border-2 rounded-full border-indigo-500 text-indigo-500 hover:text-white hover:bg-indigo-800 hover:border-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300">Login</button>
+				<li><button class="header-btn">Login</button>
 				</li>
-				<li><button class=" py-1 px-3 border-2 rounded-full border-indigo-500 text-indigo-500 hover:text-white hover:bg-indigo-800
-						hover:border-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300">Register</button>
+				<li><button class="header-btn">Register</button>
 				</li>
 			</ul>
 		</nav>
@@ -42,13 +33,13 @@
 	<main>
 		<div>
 			<div class="px-2 py-4 owerflow-y-auto whitespace-nowrap">
-				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+				<a class="breadcrumb" href="
 					#">Home</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+				<a class="breadcrumb" href="
 					#">News</a>
 				<span class="text-gray-500">&gt;</span>
-				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
+				<a class="breadcrumb" href="
 					#">Tech</a>
 			</div>
 		</div>
@@ -107,22 +98,14 @@
 <!-- Pagination -->
 <div class="mt-20 mb-10">
 	<ul class="flex justify-center">
-		<li><a
-				class="inline-block py-1 pl-4 pr-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-full"
-				href="#">Previous</a></li>
-		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-				href="#">1</a></li>
-		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-				href="#">2</a></li>
-		<li><a class="inline-block py-1 px-3 border border-indigo-500 text-indigo-500 hover:bg-gray-100 hover:text-gray-700"
+		<li><a class="pagination-item pl-4 rounded-l-full" href="#">Previous</a></li>
+		<li><a class="pagination-item" href="#">1</a></li>
+		<li><a class="pagination-item" href="#">2</a></li>
+		<li><a class="pagination-item border-indigo-500 text-indigo-500 hover:bg-gray-100 hover:text-indigo-500"
 				href="#">3</a></li>
-		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-				href="#">4</a></li>
-		<li><a class="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-				href="#">5</a></li>
-		<li><a
-				class="inline-block py-1 pl-3 pr-4 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-full"
-				href="#">Next</a></li>
+		<li><a class="pagination-item" href="#">4</a></li>
+		<li><a class="pagination-item" href="#">5</a></li>
+		<li><a class="pagination-item pr-5 rounded-r-full" href="#">Next</a></li>
 	</ul>
 </div>
 
@@ -148,13 +131,8 @@
 		<div>
 			<h6 class="font-semibold">Company</h6>
 			<ul class="text-gray-500">
-				<li><a
-						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">Team</a></li>
-				<li><a
-						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">About Us</a>
-				</li>
+				<li><a class="footer-link" href="#">Team</a></li>
+				<li><a class="footer-link" href="#">About Us</a></li>
 			</ul>
 		</div>
 	</div>
@@ -163,17 +141,9 @@
 		<div>
 			<h6 class="font-semibold">Content</h6>
 			<ul class="text-gray-500">
-				<li><a
-						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">Block</a>
-				</li>
-				<li><a
-						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">Policy</a>
-				</li>
-				<li><a
-						class="inline-block py-2 hover:underline decoration-indigo-800 underline-offset-4 focus:outline-none focus:ring focus:ring-indigo-300"
-						href="#">Documentation</a></li>
+				<li><a class="footer-link" href="#">Block</a></li>
+				<li><a class="footer-link" href="#">Policy</a></li>
+				<li><a class="footer-link" href="#">Documentation</a></li>
 			</ul>
 		</div>
 	</div>
