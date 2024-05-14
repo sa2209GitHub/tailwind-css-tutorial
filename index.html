@@ -11,11 +11,11 @@
 
 <body>
 	<!-- Header -->
-	<header class="px-2 border-b-2">
-		<a class="font-bold text-indigo-500 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
+	<header class="px-2 border-b-2 flex items-center justify-between">
+		<a class="font-bold text-lg text-indigo-500 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
 			href="index.html">Tailwind CSS</a>
-		<nav>
-			<ul class="text-gray-500 font-semibold">
+		<nav class="flex items-center gap-2">
+			<ul class="text-gray-500 font-semibold inline-flex items-center">
 				<li><a
 						class="inline-block py-3 px-2 border-b-2 border-transparent hover:text-indigo-800 hover:border-indigo-800 focus:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"
 						href="#">Home</a></li>
@@ -27,7 +27,7 @@
 						href=" #">Contact</a>
 				</li>
 			</ul>
-			<ul>
+			<ul class="inline-flex items-center gap-2">
 				<li><button
 						class="py-1 px-3 border-2 rounded-full border-indigo-500 text-indigo-500 hover:text-white hover:bg-indigo-800 hover:border-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300">Login</button>
 				</li>
@@ -41,7 +41,7 @@
 	<!-- Breadcrumbs -->
 	<main>
 		<div>
-			<div class="py-4 owerflow-y-auto whitespace-nowrap">
+			<div class="px-2 py-4 owerflow-y-auto whitespace-nowrap">
 				<a class="text-gray-600 hover:text-indigo-800 focus:outline-none focus:ring focus:ring-indigo-300"" href="
 					#">Home</a>
 				<span class="text-gray-500">&gt;</span>
@@ -55,6 +55,55 @@
 	</main>
 </body>
 
+<!-- Post cards -->
+<section class="px-2">
+	<a class="block mb-10" href="#">
+		<div class="'flex">
+			<div>
+				<h3 class="mt-3 text-gray-700 font-bold text-2xl">Maecenas ac urna tristique ex consequat facilisis ac non
+					metus.
+				</h3>
+				<p class="text-gray-700 mt-2">Vestibulum risus nibh, consectetur at urna vitae, suscipit accumsan enim.
+					Suspendisse scelerisque vulputate suscipit. Donec commodo dapibus sapien at fringilla. Proin pellentesque
+					metus metus. Etiam interdum sit amet sem malesuada laoreet. Curabitur ac est erat. Quisque ante tellus,
+					dapibus at tristique eu, pharetra placerat dui. Etiam semper auctor augue, gravida maximus lacus congue in. In
+					enim diam, blandit et neque ac, tempus aliquam odio. Phasellus eu lacus lorem. Nulla mattis risus egestas
+					dapibus ornare. Sed elit magna, auctor at neque sed, vulputate euismod enim. Quisque nec lorem vel libero
+					finibus commodo. Vivamus rutrum lectus ut pretium mollis.</p>
+			</div>
+		</div>
+	</a>
+	<a class="block mb-10" href="#">
+		<div>
+			<div>
+				<h3 class="mt-3 text-gray-700 font-bold text-2xl">Etiam ac velit viverra, pretium nisl non, volutpat est.</h3>
+				<p class="text-gray-700 mt-2">Nullam tincidunt mauris sit amet consectetur placerat. Praesent malesuada massa
+					tortor, eu euismod orci ultricies vel. Mauris imperdiet urna enim, ut fermentum felis malesuada sit amet.
+					Morbi aliquet libero ut libero sagittis efficitur. In feugiat erat a ipsum dictum, id mattis eros pharetra.
+					Morbi at venenatis enim. Donec blandit risus orci, at dapibus orci convallis at. Sed enim quam, interdum ac
+					feugiat a, ullamcorper at mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In convallis turpis
+					id quam auctor, at interdum diam placerat. Donec maximus tempor mi, sit amet mattis nisl hendrerit non. Duis
+					varius cursus nunc, sit amet malesuada tellus volutpat sed. Vestibulum ante ipsum primis in faucibus orci
+					luctus et ultrices posuere cubilia curae; Etiam a tristique lorem.</p>
+			</div>
+		</div>
+	</a>
+	<a class="block mb-10" href="#">
+		<div>
+			<div>
+				<h3 class="mt-3 text-gray-700 font-bold text-2xl">Vestibulum vestibulum magna sit amet velit porttitor
+					sollicitudin.</h3>
+				<p class="text-gray-700 mt-2">Sed varius arcu vel magna mattis congue. Phasellus aliquam id lectus sit amet
+					ultricies. Phasellus vehicula quam nec enim euismod tempor. Aliquam malesuada egestas augue ac ultricies.
+					Curabitur vitae nisl turpis. Integer fringilla massa eu efficitur elementum. Ut nec venenatis nisl. Nullam
+					quis ante lobortis, sagittis tellus in, efficitur mauris. Sed id ipsum non urna ultricies mattis eu id nunc.
+					Phasellus fringilla hendrerit ipsum sed consequat. Nulla nec quam molestie, posuere tellus a, suscipit turpis.
+					Donec dapibus egestas scelerisque. Aenean at metus nisl. Duis rutrum id turpis eu tincidunt. Nam nec dui
+					auctor, mollis diam vitae, ullamcorper urna. Aliquam sed dictum tellus.</p>
+			</div>
+		</div>
+	</a>
+</section>
 <!-- Pagination -->
 <div class="mt-20 mb-10">
 	<ul class="flex justify-center">
